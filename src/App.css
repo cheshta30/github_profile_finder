@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#SubmitButton {
+  background-color: rgb(64, 64, 218);
+  color: white;
+  padding: 8.5px 14px;
+  margin-top: 2px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#searchBar input {
+  flex: 1;
+  
+}
+
+#outline {
+  justify-content: center;
+  display: inline-block;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 400px;
+  padding: 50px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+h2, h3, h4 {
+  margin: 0;
+}
+
+#card {
+  display: block;
+  border: 2px black solid;
+  height: 60vh;
+  width: 100vh;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+}
+
+#profile img {
+  height: 130px;
+  width: 140px;
+  margin-right: 20px;
+}
+
+#profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+#name-joined {
+  display: flex;
+  align-items: center;
+}
+
+#name-joined h2 {
+  margin-right: 200px;
+}
+
+#profile-text h3 {
+  color: rgb(122, 122, 220);
+}
+
+#other_content{
+  padding-left: 120px;
+}
+
+#rectangle{
+  display: flex;
+  justify-content: space-between;
+  background-color: #808080;
+  height: 80px;
+  padding: 25px;
+  margin: 0;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+#Other1, #Other2{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+pre{
+  font-size: larger;
+}
